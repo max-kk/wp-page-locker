@@ -1,9 +1,11 @@
 # wp-page-locker - Wordpress admin pages locker
-Allows you lock any admin page from multuply users editing (like Wordpress posts)
+Allows you lock any admin page from multuply users editing (like Wordpress posts).
+Common usage target - avoid multiply users override their changes.
 
 Using example: look at **locker-init.php**
 
-Original code was taken from Gravity Forms plugin and slighty simplified.
+Original code was taken from [Gravity Forms plugin](https://github.com/wp-premium/gravityforms/tree/master/includes/locking
+0and slighty simplified.
 
 > For make this library worked you need have [WP Heartbeat](https://code.tutsplus.com/tutorials/the-heartbeat-api-getting-started--wp-32446) enabled.
 
