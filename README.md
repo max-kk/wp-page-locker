@@ -1,6 +1,6 @@
 # wp-page-locker - Wordpress admin pages locker
 Allows you lock any admin page from multuply users editing (like Wordpress posts).
-Common usage target - avoid multiply users override their changes.
+Common target usage - avoid multiply users override their changes.
 
 Using example: look at **locker-init.php**
 
