@@ -9,7 +9,7 @@ Original code was taken from Gravity Forms plugin and slighty simplified.
 
 ## How is it working?
 
-When any user open the locked page library set Transient to N seconds and with each Heartbeat request this Transient is prolonged.
+When any user open the locked page library set Transient to 130 seconds and with each Heartbeat request this Transient is prolonged.
 
 When another user (with the other ID or even the same ID but diff IP) trying open this page he get a notice that page was locked by "User AAA" and possible actions - close page or request access to page.
 
