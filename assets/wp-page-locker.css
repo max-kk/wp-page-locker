@@ -1,0 +1,49 @@
+tr.gf-locking.wp-locked .locked-info {
+    height: auto;
+}
+
+tr.gf-locking.wp-locked img.gform_active_icon {
+    display: none;
+}
+
+#wpl-form-lock-dialog .wpl-form-locked-message,
+#wpl-form-lock-dialog .wpl-form-taken-over {
+    margin: 22px;
+}
+
+#wpl-form-lock-dialog .dashicons{
+    vertical-align: middle;
+}
+
+#wpl-form-lock-dialog .wpl-form-locked-message a.button {
+    margin-right: 10px;
+}
+
+#wpl-form-lock-dialog .wpl-form-locked-avatar {
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+#wpl-form-lock-dialog .wp-tab-first {
+    outline: 0;
+}
+
+#wpl-form-lock-dialog .wpl-form-actions {
+    margin: 10px 0;
+}
+
+#wpl-form-lock-request-status {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
+
+#wpl-form-lock-request-status:after {
+    clear: both;
+    content: "";
+    display: table;
+}
+
+#wpl-form-lock-request-status .spinner {
+    margin-top: 0;
+}
